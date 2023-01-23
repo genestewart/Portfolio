@@ -1,0 +1,58 @@
+/* color schemes
+#272727 Black
+#747474 Grey
+#FF652F Orange
+#FFE400 Yellow
+#14A76C Green*/
+
+
+body {
+    font-family: Bookman, URW Bookman L;
+    /* background-color: #272727; */
+    color: #ff652f;
+}
+
+/* Navbar */
+ul{
+    list-style: none;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    float: left;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    opacity: .8;
+    line-height: 40px;
+    font-size: 20px;
+    background-color: #272727;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #474747;
+    display: block;
+}
+
+ul li a:hover{
+    background-color: #ffe400;
+}
+/* End of Navbar */
+/* Section-1 */
+body{
+    background-image: url("/Images/background-1.jpg");
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+Body div h1{
+    font-size: 8rem;
+    text-align: center;
+}
+/* End of Section-1 */
